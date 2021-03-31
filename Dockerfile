@@ -8,7 +8,6 @@ COPY database ./database
 COPY http ./http
 COPY logger ./logger
 COPY logs ./logs
-RUN mkdir -p /usr/src/app/uploads
 RUN mkdir -p /usr/src/app/logs
 RUN npm install
 RUN chmod -R 777 /usr/src/app/

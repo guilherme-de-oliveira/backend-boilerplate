@@ -1,6 +1,4 @@
 node_modules
 vcap-local.json
-package-lock.json
 .env
 server/logs
-dist
